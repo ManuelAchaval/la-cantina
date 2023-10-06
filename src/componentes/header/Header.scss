@@ -1,0 +1,16 @@
+header {
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0.0005px;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}

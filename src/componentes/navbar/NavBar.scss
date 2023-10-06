@@ -1,0 +1,27 @@
+ul,li{
+
+    text-decoration: none;
+    list-style: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+
+    box-shadow: 0px 8px 25px 3px #000000b5;
+}
+.footer{
+    ul,li{
+        padding: 10px 2em 10px 2em;
+        background-color: #282c34;
+        justify-content: space-around;
+        color: white;
+        p{
+            font-size: smaller;
+        }
+    }
+
+}

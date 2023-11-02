@@ -7,14 +7,9 @@ const NavBar = (params) => {
         return (
             <>
                 <div className='footer'>
-                    <ul className='footer__ul'>
-                        <li className='footer__li'>Contacto</li>
-                        <li className='footer__li'><p>Manuel Achaval</p>
-                        </li>
-
-                        <li className='footer__li'>Sobre nosotros</li>
-
-                    </ul>
+                    <p>Contacto</p>
+                    <p>Manuel Achaval</p>
+                    <p>Sobre nosotros</p>
                     <p className='footer__p'>©Copyright 2023</p>
                 </div>
             </>

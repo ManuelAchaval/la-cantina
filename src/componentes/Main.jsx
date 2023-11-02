@@ -1,6 +1,11 @@
 import ItemListContainer from "./itemlistcont/ItemListContainer"
 
-const Main = () => {
+const Main = (params) => {
+    const {uno, dos, tres}=params;
+    console.log(uno)
+    console.log(dos)
+    console.log(tres)
+
     return (
         <main>
             <div>

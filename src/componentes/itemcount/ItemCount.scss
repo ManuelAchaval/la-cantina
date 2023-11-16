@@ -1,0 +1,25 @@
+.itemcount {
+    display: flex;
+    flex-direction: column;
+    max-width: 5em;
+    align-items: center;
+
+    .btn-contador {
+        width: fit-content;
+        color: white;
+        background-color: #2B587F;
+        border: solid 1px white;
+        padding: 5px 8px;
+        margin: 5px;
+        border-radius: 6px;
+    }
+}
+
+.count {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    p{
+        margin: 5px;
+    }
+}

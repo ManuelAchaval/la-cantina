@@ -1,10 +1,12 @@
 import ItemListContainer from "./itemlistcont/ItemListContainer"
+import './main.scss'
+
 
 const Main = (params) => {
-    const {uno, dos, tres}=params;
+    const {uno, dos}=params;
     console.log(uno)
     console.log(dos)
-    console.log(tres)
+
 
     return (
         <main>
